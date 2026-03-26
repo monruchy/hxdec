@@ -12,17 +12,24 @@
 
 ```bash
 python hxdec.py -d "<hex_data>" -k "<key>"
+```
 
-Example
+## Example
 
+```
 python hxdec.py -d "6d07163d..." -k "IflNgl" -o output.ps1
+```
 
-Why hxdec?
+## Why hxdec?
 
+```
 Many malicious scripts use simple XOR + HEX obfuscation to hide payloads.
 hxdec helps security researchers quickly reveal the real code safely.
+```
 
-Disclaimer
+## Disclaimer
 
+```
 This tool is for educational and malware analysis purposes only.
 Do not use it for malicious activities.
+```
